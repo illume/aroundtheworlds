@@ -10,7 +10,7 @@ python aroundtheworlds/aroundtheworlds.py
 
 I have split screens now.
 
-![Split screens](screenshots/Screen Shot 2018-04-15 at 11.12.42.png)
+![Split screens](screenshots/shot1.png)
 
 Next up some basic balloons and some terrain.
 
