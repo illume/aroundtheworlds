@@ -4,6 +4,24 @@ python aroundtheworlds/aroundtheworlds.py
 
 ## Log.
 
+
+
+### Sun 15 Apr 2018 11:14:41 CEST
+
+I have split screens now.
+
+![Split screens](screenshots/Screen Shot 2018-04-15 at 11.12.42.png)
+
+Next up some basic balloons and some terrain.
+
+
+
+
+### Sun 15 Apr 2018 10:33:27 CEST
+
+Adding setup.py and first python file that just print hello.
+
+
 ### Sun 15 Apr 2018 09:52:39 CEST
 
 I got the name of the game, and setting up a github repo for it.
@@ -39,8 +57,6 @@ I'm using pygame and will also try a bunch of libraries.
 Probably 'thorpy' for game menus/gui, and 'transitions' for state machines.
   - [thorpy](https://pypi.python.org/pypi/thorpy)
   - [transitions](https://github.com/pytransitions/transitions)
-
-
 
 
 
