@@ -1,5 +1,7 @@
 Around the Worlds in 80 days.
 
+python aroundtheworlds/aroundtheworlds.py
+
 ## Log.
 
 ### Sun 15 Apr 2018 09:52:39 CEST
@@ -20,6 +22,8 @@ Next up, I'll set up my base code. Probably should have done this earlier.
 
 This is what I hate about python... config file soup.
 Note to self: finish pyrelease.
+
+But, I'll at least use pipenv. Warm, happy pipenv.
 
 
 
