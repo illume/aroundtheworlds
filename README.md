@@ -6,20 +6,18 @@ python aroundtheworlds/aroundtheworlds.py
 
 
 
-### Sun 15 Apr 2018 11:14:41 CEST
+### Sun 15 Apr 2018 09:25:52 CEST
 
-I have split screens now.
+For my Two Worlds pyweek... I'm thinking of doing a split screen game. Where you control the avatar in both worlds. So your input has to avoid collisions in both. Controlling the hot air that goes into a balloon to make it rise. Just obstacle avoidance I guess, but sort of interesting because you have to do it in two Worlds at once.
 
-![Split screens](screenshots/shot1.png)
+![Split screen drawing two balloons](design/IMG_2834.jpg)
 
-Next up some basic balloons and some terrain.
+I'm using pygame and will also try a bunch of libraries.
+[pygame awesome libraries](https://www.reddit.com/r/pygame/comments/89ygm7/pygame_awesome_libraries/)
 
-
-
-
-### Sun 15 Apr 2018 10:33:27 CEST
-
-Adding setup.py and first python file that just print hello.
+Probably 'thorpy' for game menus/gui, and 'transitions' for state machines.
+  - [thorpy](https://pypi.python.org/pypi/thorpy)
+  - [transitions](https://github.com/pytransitions/transitions)
 
 
 ### Sun 15 Apr 2018 09:52:39 CEST
@@ -45,19 +43,48 @@ But, I'll at least use pipenv. Warm, happy pipenv.
 
 
 
-### Sun 15 Apr 2018 09:25:52 CEST
+### Sun 15 Apr 2018 10:33:27 CEST
 
-For my Two Worlds pyweek... I'm thinking of doing a split screen game. Where you control the avatar in both worlds. So your input has to avoid collisions in both. Controlling the hot air that goes into a balloon to make it rise. Just obstacle avoidance I guess, but sort of interesting because you have to do it in two Worlds at once.
-
-![Split screen drawing two balloons](design/IMG_2834.jpg)
-
-I'm using pygame and will also try a bunch of libraries.
-[pygame awesome libraries](https://www.reddit.com/r/pygame/comments/89ygm7/pygame_awesome_libraries/)
-
-Probably 'thorpy' for game menus/gui, and 'transitions' for state machines.
-  - [thorpy](https://pypi.python.org/pypi/thorpy)
-  - [transitions](https://github.com/pytransitions/transitions)
+Adding setup.py and first python file that just print hello.
 
 
+### Sun 15 Apr 2018 11:14:41 CEST
+
+I have split screens now.
+
+![Split screens](screenshots/shot1.png)
+
+Next up some basic balloons and some terrain.
+
+
+
+### Sun 15 Apr 2018 12:00:58 CEST
+
+
+Because only the Balloon will be moving, we only need to change a small part of the screen
+each frame. Luckily pygame handles this nicely.
+
+Efficient screen updates with dirty rects, DirtySprite and LayeredDirty.
+When an object
+
+See [Quick & Dirty: Using Pygame's DirtySprite & LayeredDirty (A tutorial)](https://github.com/n0nick/dirty_chimp) for more information about pygame dirty rectangle sprites.
+
+Now I have the basic game objects in place.
+
+![Basic game objects in place](screenshots/shot2.png)
+
+
+The resolution I've decided on is 640x480.
+
+I plan to draw them all by hand at this stage,
+and that should make the asset creation easier.
+
+This means 320x480 for each side.
+
+
+Maybe it would be fun to draw a different city for each 'level'.
+So on the left there would be Paris, and on the right London.
+
+And the player has to move both Baloons through the city safely.
 
 
