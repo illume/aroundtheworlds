@@ -70,6 +70,8 @@ When an object
 See [Quick & Dirty: Using Pygame's DirtySprite & LayeredDirty (A tutorial)](https://github.com/n0nick/dirty_chimp) for more information about pygame dirty rectangle sprites.
 
 Now I have the basic game objects in place.
+Well... they are still 'programmer art'.
+The Balloon a green square, and the background just a flat blue or red so far.
 
 ![Basic game objects in place](screenshots/shot2.png)
 
@@ -85,6 +87,22 @@ This means 320x480 for each side.
 Maybe it would be fun to draw a different city for each 'level'.
 So on the left there would be Paris, and on the right London.
 
-And the player has to move both Baloons through the city safely.
+And the player has to move both Balloons through the city safely. But they only have one controller for both the Balloons!
+
+
+
+### Mon 16 Apr 2018 11:08:12 CEST
+
+I decided to use drawings of monuments in cities to make up the levels.
+
+So here is my drawing of the Eiffle Tower in Paris.
+
+![Eiffle Tower drawing](screenshots/shot3.png)
+
+
+Now I need to cut it out and somehow make a level out of it.
+Lots of Eiffle Towers cut and pasted all over to make a level. lol.
+
+But actually, I feel like drawing a hot air balloon.
 
 
