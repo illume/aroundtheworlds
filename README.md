@@ -106,3 +106,10 @@ Lots of Eiffle Towers cut and pasted all over to make a level. lol.
 But actually, I feel like drawing a hot air balloon.
 
 
+
+### Mon 16 Apr 2018 11:36:29 CEST
+
+Cut out the eiffle-tower.png drawing and burned it a little.
+
+![Eiffle Tower cut out](screenshots/shot4.png)
+
