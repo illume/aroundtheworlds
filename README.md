@@ -95,13 +95,13 @@ And the player has to move both Balloons through the city safely. But they only 
 
 I decided to use drawings of monuments in cities to make up the levels.
 
-So here is my drawing of the Eiffle Tower in Paris.
+So here is my drawing of the Eiffel Tower in Paris.
 
-![Eiffle Tower drawing](screenshots/shot3.png)
+![Eiffel Tower drawing](screenshots/shot3.png)
 
 
 Now I need to cut it out and somehow make a level out of it.
-Lots of Eiffle Towers cut and pasted all over to make a level. lol.
+Lots of Eiffel Towers cut and pasted all over to make a level. lol.
 
 But actually, I feel like drawing a hot air balloon.
 
@@ -111,5 +111,46 @@ But actually, I feel like drawing a hot air balloon.
 
 Cut out the eiffle-tower.png drawing and burned it a little.
 
-![Eiffle Tower cut out](screenshots/shot4.png)
+![Eiffel Tower cut out](screenshots/shot4.png)
+
+
+### Mon 16 Apr 2018 12:48:32 CEST
+
+Did some research on Balloon valves and such.
+
+ie. I have just been watching you tube videos of how to fly a hot air Balloon.
+
+I feel confident I could go outside right now and fly one! ;)
+
+
+At some point soon I should probably start writing a simulation of this.
+With a unit test to see how all these variables interact.
+
+Some quick sketches of the controls I'll need.
+![dials and controls](design/IMG_2873.jpg)
+
+
+There are two main controls on a hot air Balloon.
+You can turn on the burner, and the air will get hot. This makes the Balloon rise.
+Then you can pull a cable to let air out of the top of the Balloon, making it drop.
+
+
+
+
+
+### Thu 19 Apr 2018 00:09:29 CEST
+
+I lost some days to things I had to do in 'life'.
+
+Decided to edit a bunch of letters for my game introduction.
+
+![The letter p](screenshots/shot5.png)
+
+
+Probably not the wisest idea if I want to finish an actual game...
+but oh well. I'm trying to have fun in this pyweek, and do whatever
+I feel like.
+
+So now manually touching up the images after they were image processed.
+
 
