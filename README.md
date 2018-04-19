@@ -154,3 +154,9 @@ I feel like.
 So now manually touching up the images after they were image processed.
 
 
+
+### Thu 19 Apr 2018 02:39:12 CEST
+
+
+The full size lettering for the intro font. Made of strawberries.
+
