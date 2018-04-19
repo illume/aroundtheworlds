@@ -160,3 +160,19 @@ So now manually touching up the images after they were image processed.
 
 The full size lettering for the intro font. Made of strawberries.
 
+Now to make an animation out of it.
+
+I was thinking of letters bouncing around.
+Then of a star field made of single dots.
+Perhaps some random lines drawing over it.
+
+Or maybe I should just write the words for now.
+
+
+### Thu 19 Apr 2018 04:31:47 CEST
+
+I started on a really simplistic animation.
+
+![start of intro](screenshots/shot6.gif)
+
+
